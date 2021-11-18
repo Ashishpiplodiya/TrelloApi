@@ -1,0 +1,32 @@
+2021-10-31 15:59:55,405 13311 [main] INFO  com.trello.TrelloScripts.TC1_CreateBoard - Header added to the request
+2021-10-31 15:59:55,491 13397 [main] INFO  com.trello.TrelloScripts.TC1_CreateBoard - Query Parameter added to the Request
+2021-10-31 16:00:01,553 19459 [main] INFO  com.trello.TrelloScripts.TC1_CreateBoard - 617e702c713d24791b662195 written in .json file
+2021-10-31 16:00:01,600 19506 [main] INFO  com.trello.TrelloScripts.TC1_CreateBoard - Expected Status Code: 200 Matched with Actual Status Code: 200
+2021-10-31 16:00:03,923 21829 [main] INFO  com.trello.TrelloScripts.TC2_CreateList - Header added to the request
+2021-10-31 16:00:03,926 21832 [main] INFO  com.trello.TrelloScripts.TC2_CreateList - Query Parameter added to the Request
+2021-10-31 16:00:04,709 22615 [main] INFO  com.trello.TrelloScripts.TC2_CreateList - 617e7031c4804c425cd6d8d6 written in .json file
+2021-10-31 16:00:04,710 22616 [main] INFO  com.trello.TrelloScripts.TC2_CreateList - Expected Status Code: 200 Matched with Actual Status Code: 200
+2021-10-31 16:00:04,937 22843 [main] INFO  com.trello.TrelloScripts.TC3_CreateAnotherList - Header added to the request
+2021-10-31 16:00:04,939 22845 [main] INFO  com.trello.TrelloScripts.TC3_CreateAnotherList - Query Parameter added to the Request
+2021-10-31 16:00:05,699 23605 [main] INFO  com.trello.TrelloScripts.TC3_CreateAnotherList - 617e703206235d5cfd571133 written in .json file
+2021-10-31 16:00:05,700 23606 [main] INFO  com.trello.TrelloScripts.TC3_CreateAnotherList - Expected Status Code: 200 Matched with Actual Status Code: 200
+2021-10-31 16:00:05,931 23837 [main] INFO  com.trello.TrelloScripts.TC4_CreateCard - Header added to the request
+2021-10-31 16:00:05,933 23839 [main] INFO  com.trello.TrelloScripts.TC4_CreateCard - Query Parameter added to the Request
+2021-10-31 16:00:06,975 24881 [main] INFO  com.trello.TrelloScripts.TC4_CreateCard - 617e703361ea5860a5068e68 written in .json file
+2021-10-31 16:00:06,976 24882 [main] INFO  com.trello.TrelloScripts.TC4_CreateCard - Expected Status Code: 200 Matched with Actual Status Code: 200
+2021-10-31 16:00:07,306 25212 [main] INFO  com.trello.TrelloScripts.TC5_GetCard - Header added to the request
+2021-10-31 16:00:07,314 25220 [main] INFO  com.trello.TrelloScripts.TC5_GetCard - Query Parameter added to the Request
+2021-10-31 16:00:08,070 25976 [main] INFO  com.trello.TrelloScripts.TC5_GetCard - Expected Status Code: 200 Matched with Actual Status Code: 200
+2021-10-31 16:00:08,459 26365 [main] INFO  com.trello.TrelloScripts.TC6_UpdateCard - Header added to the request
+2021-10-31 16:00:08,461 26367 [main] INFO  com.trello.TrelloScripts.TC6_UpdateCard - Query Parameter added to the Request
+2021-10-31 16:00:09,353 27259 [main] INFO  com.trello.TrelloScripts.TC6_UpdateCard - Expected Status Code: 200 Matched with Actual Status Code: 200
+2021-10-31 16:00:09,641 27547 [main] INFO  com.trello.TrelloScripts.TC7_MoveCard - Header added to the request
+2021-10-31 16:00:09,645 27551 [main] INFO  com.trello.TrelloScripts.TC7_MoveCard - Query Parameter added to the Request
+2021-10-31 16:00:10,441 28347 [main] INFO  com.trello.TrelloScripts.TC7_MoveCard - Expected Status Code: 200 Matched with Actual Status Code: 200
+2021-10-31 16:00:10,588 28494 [main] INFO  com.trello.TrelloScripts.TC8_DeleteCard - Header added to the request
+2021-10-31 16:00:10,590 28496 [main] INFO  com.trello.TrelloScripts.TC8_DeleteCard - Query Parameter added to the Request
+2021-10-31 16:00:11,496 29402 [main] INFO  com.trello.TrelloScripts.TC8_DeleteCard - Expected Status Code: 200 Matched with Actual Status Code: 200
+2021-10-31 16:00:11,705 29611 [main] INFO  com.trello.TrelloScripts.TC9_GetCardError - Header added to the request
+2021-10-31 16:00:11,707 29613 [main] INFO  com.trello.TrelloScripts.TC9_GetCardError - Query Parameter added to the Request
+2021-10-31 16:00:12,400 30306 [main] INFO  com.trello.TrelloScripts.TC9_GetCardError - Expected Status Code: 404 Matched with Actual Status Code: 404
+2021-10-31 16:00:14,926 32832 [main] INFO  com.trello.TrelloScripts.TC9_GetCardError - Allure Report is Generated Successfully

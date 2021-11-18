@@ -1,0 +1,200 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "descData": {
+      "type": "null"
+    },
+    "closed": {
+      "type": "boolean"
+    },
+    "idOrganization": {
+      "type": "string"
+    },
+    "idEnterprise": {
+      "type": "null"
+    },
+    "pinned": {
+      "type": "boolean"
+    },
+    "url": {
+      "type": "string"
+    },
+    "shortUrl": {
+      "type": "string"
+    },
+    "prefs": {
+      "type": "object",
+      "properties": {
+        "permissionLevel": {
+          "type": "string"
+        },
+        "hideVotes": {
+          "type": "boolean"
+        },
+        "voting": {
+          "type": "string"
+        },
+        "comments": {
+          "type": "string"
+        },
+        "invitations": {
+          "type": "string"
+        },
+        "selfJoin": {
+          "type": "boolean"
+        },
+        "cardCovers": {
+          "type": "boolean"
+        },
+        "isTemplate": {
+          "type": "boolean"
+        },
+        "cardAging": {
+          "type": "string"
+        },
+        "calendarFeedEnabled": {
+          "type": "boolean"
+        },
+        "background": {
+          "type": "string"
+        },
+        "backgroundImage": {
+          "type": "null"
+        },
+        "backgroundImageScaled": {
+          "type": "null"
+        },
+        "backgroundTile": {
+          "type": "boolean"
+        },
+        "backgroundBrightness": {
+          "type": "string"
+        },
+        "backgroundColor": {
+          "type": "string"
+        },
+        "backgroundBottomColor": {
+          "type": "string"
+        },
+        "backgroundTopColor": {
+          "type": "string"
+        },
+        "canBePublic": {
+          "type": "boolean"
+        },
+        "canBeEnterprise": {
+          "type": "boolean"
+        },
+        "canBeOrg": {
+          "type": "boolean"
+        },
+        "canBePrivate": {
+          "type": "boolean"
+        },
+        "canInvite": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "permissionLevel",
+        "hideVotes",
+        "voting",
+        "comments",
+        "invitations",
+        "selfJoin",
+        "cardCovers",
+        "isTemplate",
+        "cardAging",
+        "calendarFeedEnabled",
+        "background",
+        "backgroundImage",
+        "backgroundImageScaled",
+        "backgroundTile",
+        "backgroundBrightness",
+        "backgroundColor",
+        "backgroundBottomColor",
+        "backgroundTopColor",
+        "canBePublic",
+        "canBeEnterprise",
+        "canBeOrg",
+        "canBePrivate",
+        "canInvite"
+      ]
+    },
+    "labelNames": {
+      "type": "object",
+      "properties": {
+        "green": {
+          "type": "string"
+        },
+        "yellow": {
+          "type": "string"
+        },
+        "orange": {
+          "type": "string"
+        },
+        "red": {
+          "type": "string"
+        },
+        "purple": {
+          "type": "string"
+        },
+        "blue": {
+          "type": "string"
+        },
+        "sky": {
+          "type": "string"
+        },
+        "lime": {
+          "type": "string"
+        },
+        "pink": {
+          "type": "string"
+        },
+        "black": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "green",
+        "yellow",
+        "orange",
+        "red",
+        "purple",
+        "blue",
+        "sky",
+        "lime",
+        "pink",
+        "black"
+      ]
+    },
+    "limits": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "desc",
+    "descData",
+    "closed",
+    "idOrganization",
+    "idEnterprise",
+    "pinned",
+    "url",
+    "shortUrl",
+    "prefs",
+    "labelNames",
+    "limits"
+  ]
+}

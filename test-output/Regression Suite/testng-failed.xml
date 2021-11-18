@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="1" name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="Trello(failed)">
+    <classes>
+      <class name="com.trello.TrelloScripts.TC9_GetCardError">
+        <methods>
+          <include name="setExtentReport"/>
+          <include name="getCard" invocation-numbers="0"/>
+          <include name="createBug"/>
+          <include name="createFiles"/>
+          <include name="createNode"/>
+          <include name="reportGeneration"/>
+        </methods>
+      </class> <!-- com.trello.TrelloScripts.TC9_GetCardError -->
+    </classes>
+  </test> <!-- Trello(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

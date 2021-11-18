@@ -1,0 +1,14 @@
+{
+"Environment":{
+"qa":{
+   "baseUrl":"https:/qa.environment.com",
+   "username":"qaenvironment",
+   "password":"qaenvironment"
+  }
+"prod":{
+   "baseUrl":"https:/prod.environment.com",
+   "username":"prodenvironment",
+   "password":"prodenvironment"
+  }
+}
+}

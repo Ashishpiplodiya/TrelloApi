@@ -1,0 +1,22 @@
+2021-10-28 11:18:33,114 4290 [main] INFO  com.trello.TrelloScripts.TC1_CreateBoard - Header added to the request
+2021-10-28 11:18:33,143 4319 [main] INFO  com.trello.TrelloScripts.TC1_CreateBoard - Query Parameter added to the Request
+2021-10-28 11:18:36,793 7969 [main] INFO  com.trello.TrelloScripts.TC1_CreateBoard - 617a39b4376c335711531a73 written in .json file
+2021-10-28 11:18:36,828 8004 [main] INFO  com.trello.TrelloScripts.TC1_CreateBoard - Expected Status Code: 200 Matched with Actual Status Code: 200
+2021-10-28 11:18:38,039 9215 [main] INFO  com.trello.TrelloScripts.TC2_CreateList - Header added to the request
+2021-10-28 11:18:38,050 9226 [main] INFO  com.trello.TrelloScripts.TC2_CreateList - Query Parameter added to the Request
+2021-10-28 11:18:38,860 10036 [main] INFO  com.trello.TrelloScripts.TC2_CreateList - 617a39b8af03d150eb2efd94 written in .json file
+2021-10-28 11:18:38,861 10037 [main] INFO  com.trello.TrelloScripts.TC2_CreateList - Expected Status Code: 200 Matched with Actual Status Code: 200
+2021-10-28 11:18:39,024 10200 [main] INFO  com.trello.TrelloScripts.TC3_CreateCard - Header added to the request
+2021-10-28 11:18:39,033 10209 [main] INFO  com.trello.TrelloScripts.TC3_CreateCard - Query Parameter added to the Request
+2021-10-28 11:18:39,759 10935 [main] INFO  com.trello.TrelloScripts.TC3_CreateCard - 617a39b98cc30777fe592c31 written in .json file
+2021-10-28 11:18:39,760 10936 [main] INFO  com.trello.TrelloScripts.TC3_CreateCard - Expected Status Code: 200 Matched with Actual Status Code: 200
+2021-10-28 11:18:39,961 11137 [main] INFO  com.trello.TrelloScripts.TC4_GetCard - Header added to the request
+2021-10-28 11:18:39,962 11138 [main] INFO  com.trello.TrelloScripts.TC4_GetCard - Query Parameter added to the Request
+2021-10-28 11:18:40,770 11946 [main] INFO  com.trello.TrelloScripts.TC4_GetCard - Expected Status Code: 200 Matched with Actual Status Code: 200
+2021-10-28 11:18:40,933 12109 [main] INFO  com.trello.TrelloScripts.TC5_UpdateCard - Header added to the request
+2021-10-28 11:18:40,934 12110 [main] INFO  com.trello.TrelloScripts.TC5_UpdateCard - Query Parameter added to the Request
+2021-10-28 11:18:41,624 12800 [main] INFO  com.trello.TrelloScripts.TC5_UpdateCard - Expected Status Code: 200 Matched with Actual Status Code: 200
+2021-10-28 11:18:41,900 13076 [main] INFO  com.trello.TrelloScripts.TC6_DeleteCard - Header added to the request
+2021-10-28 11:18:41,902 13078 [main] INFO  com.trello.TrelloScripts.TC6_DeleteCard - Query Parameter added to the Request
+2021-10-28 11:18:42,664 13840 [main] INFO  com.trello.TrelloScripts.TC6_DeleteCard - Expected Status Code: 200 Matched with Actual Status Code: 200
+2021-10-28 11:18:42,800 13976 [main] INFO  com.trello.TrelloScripts.TC6_DeleteCard - Allure Report is Generated Successfully

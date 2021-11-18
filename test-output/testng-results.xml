@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="16" total="25" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-31T16:02:20 IST" name="Regression Suite" finished-at="2021-10-31T16:02:51 IST" duration-ms="31131">
+    <groups>
+    </groups>
+    <test started-at="2021-10-31T16:02:20 IST" name="Trello" finished-at="2021-10-31T16:02:51 IST" duration-ms="31131">
+      <class name="com.trello.TrelloScripts.TC4_CreateCard">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.trello.TrelloScripts.TC4_CreateCard@ad3324b]" started-at="2021-10-31T16:02:43 IST" name="setExtentReport" finished-at="2021-10-31T16:02:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method is-config="true" signature="createNode()[pri:0, instance:com.trello.TrelloScripts.TC4_CreateCard@ad3324b]" started-at="2021-10-31T16:02:43 IST" name="createNode" finished-at="2021-10-31T16:02:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNode -->
+        <test-method signature="createCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC4_CreateCard@ad3324b]" started-at="2021-10-31T16:02:43 IST" name="createCard" description="Description: Verify that whether user is able to create a card" data-provider="data1" finished-at="2021-10-31T16:02:44 IST" duration-ms="1092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[create]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/1/cards]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Content-Type,Accept]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[createcard]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[key,token]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[TrelloAutomation]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCard -->
+        <test-method is-config="true" signature="createBug(org.testng.ITestResult)[pri:0, instance:com.trello.TrelloScripts.TC4_CreateCard@ad3324b]" started-at="2021-10-31T16:02:44 IST" name="createBug" finished-at="2021-10-31T16:02:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCard status=SUCCESS method=TC4_CreateCard.createCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC4_CreateCard@ad3324b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBug -->
+      </class> <!-- com.trello.TrelloScripts.TC4_CreateCard -->
+      <class name="com.trello.TrelloScripts.TC2_CreateList">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.trello.TrelloScripts.TC2_CreateList@523d6bdb]" started-at="2021-10-31T16:02:41 IST" name="setExtentReport" finished-at="2021-10-31T16:02:41 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method is-config="true" signature="createNode()[pri:0, instance:com.trello.TrelloScripts.TC2_CreateList@523d6bdb]" started-at="2021-10-31T16:02:41 IST" name="createNode" finished-at="2021-10-31T16:02:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNode -->
+        <test-method signature="createList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC2_CreateList@523d6bdb]" started-at="2021-10-31T16:02:41 IST" name="createList" description="Description: Verify that whether user is able to create a list" data-provider="data1" finished-at="2021-10-31T16:02:42 IST" duration-ms="909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[create]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/1/lists]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Content-Type,Accept]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[createlist]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[key,token]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[MQASList]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createList -->
+        <test-method is-config="true" signature="createBug(org.testng.ITestResult)[pri:0, instance:com.trello.TrelloScripts.TC2_CreateList@523d6bdb]" started-at="2021-10-31T16:02:42 IST" name="createBug" finished-at="2021-10-31T16:02:42 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createList status=SUCCESS method=TC2_CreateList.createList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC2_CreateList@523d6bdb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBug -->
+      </class> <!-- com.trello.TrelloScripts.TC2_CreateList -->
+      <class name="com.trello.TrelloScripts.TC1_CreateBoard">
+        <test-method is-config="true" signature="createFiles()[pri:0, instance:com.trello.TrelloScripts.TC1_CreateBoard@66c38e51]" started-at="2021-10-31T16:02:19 IST" name="createFiles" finished-at="2021-10-31T16:02:20 IST" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFiles -->
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.trello.TrelloScripts.TC1_CreateBoard@66c38e51]" started-at="2021-10-31T16:02:20 IST" name="setExtentReport" finished-at="2021-10-31T16:02:23 IST" duration-ms="2499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method is-config="true" signature="createNode()[pri:0, instance:com.trello.TrelloScripts.TC1_CreateBoard@66c38e51]" started-at="2021-10-31T16:02:25 IST" name="createNode" finished-at="2021-10-31T16:02:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNode -->
+        <test-method signature="createBoard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC1_CreateBoard@66c38e51]" started-at="2021-10-31T16:02:25 IST" name="createBoard" description="Description: Verify that whether user is able to create a board" data-provider="data1" finished-at="2021-10-31T16:02:41 IST" duration-ms="15496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[create]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/1/boards/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Content-Type,Accept]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[createboard]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[key,token]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Testyantra]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method is-config="true" signature="createBug(org.testng.ITestResult)[pri:0, instance:com.trello.TrelloScripts.TC1_CreateBoard@66c38e51]" started-at="2021-10-31T16:02:41 IST" name="createBug" finished-at="2021-10-31T16:02:41 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createBoard status=SUCCESS method=TC1_CreateBoard.createBoard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC1_CreateBoard@66c38e51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBug -->
+        <test-method is-config="true" signature="reportGeneration()[pri:0, instance:com.trello.TrelloScripts.TC1_CreateBoard@66c38e51]" started-at="2021-10-31T16:02:51 IST" name="reportGeneration" finished-at="2021-10-31T16:02:51 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGeneration -->
+      </class> <!-- com.trello.TrelloScripts.TC1_CreateBoard -->
+      <class name="com.trello.TrelloScripts.TC3_CreateAnotherList">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.trello.TrelloScripts.TC3_CreateAnotherList@58496c97]" started-at="2021-10-31T16:02:42 IST" name="setExtentReport" finished-at="2021-10-31T16:02:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method is-config="true" signature="createNode()[pri:0, instance:com.trello.TrelloScripts.TC3_CreateAnotherList@58496c97]" started-at="2021-10-31T16:02:42 IST" name="createNode" finished-at="2021-10-31T16:02:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNode -->
+        <test-method signature="createList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC3_CreateAnotherList@58496c97]" started-at="2021-10-31T16:02:42 IST" name="createList" description="Description: Verify that whether user is able to create a list" data-provider="data1" finished-at="2021-10-31T16:02:43 IST" duration-ms="884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[create]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/1/lists]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Content-Type,Accept]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[createlist]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[key,token]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[MQASListNew]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createList -->
+        <test-method is-config="true" signature="createBug(org.testng.ITestResult)[pri:0, instance:com.trello.TrelloScripts.TC3_CreateAnotherList@58496c97]" started-at="2021-10-31T16:02:43 IST" name="createBug" finished-at="2021-10-31T16:02:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createList status=SUCCESS method=TC3_CreateAnotherList.createList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC3_CreateAnotherList@58496c97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBug -->
+      </class> <!-- com.trello.TrelloScripts.TC3_CreateAnotherList -->
+      <class name="com.trello.TrelloScripts.TC9_GetCardError">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.trello.TrelloScripts.TC9_GetCardError@3e3861d7]" started-at="2021-10-31T16:02:49 IST" name="setExtentReport" finished-at="2021-10-31T16:02:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method is-config="true" signature="createNode()[pri:0, instance:com.trello.TrelloScripts.TC9_GetCardError@3e3861d7]" started-at="2021-10-31T16:02:49 IST" name="createNode" finished-at="2021-10-31T16:02:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNode -->
+        <test-method signature="getCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC9_GetCardError@3e3861d7]" started-at="2021-10-31T16:02:49 IST" name="getCard" description="Description: Verify that whether user is able to get a card" data-provider="data1" finished-at="2021-10-31T16:02:49 IST" duration-ms="693" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[get]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/1/cards/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Content-Type,Accept]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[getcard]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[key,token]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[TrelloAutomation]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[404]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Status code not matched]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Status code not matched
+at org.testng.Assert.fail(Assert.java:99)
+at com.trello.TrelloScripts.TC9_GetCardError.getCard(TC9_GetCardError.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCard -->
+        <test-method is-config="true" signature="createBug(org.testng.ITestResult)[pri:0, instance:com.trello.TrelloScripts.TC9_GetCardError@3e3861d7]" started-at="2021-10-31T16:02:49 IST" name="createBug" finished-at="2021-10-31T16:02:51 IST" duration-ms="1923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getCard status=FAILURE method=TC9_GetCardError.getCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC9_GetCardError@3e3861d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBug -->
+      </class> <!-- com.trello.TrelloScripts.TC9_GetCardError -->
+      <class name="com.trello.TrelloScripts.TC6_UpdateCard">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.trello.TrelloScripts.TC6_UpdateCard@1a87b51]" started-at="2021-10-31T16:02:45 IST" name="setExtentReport" finished-at="2021-10-31T16:02:45 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method is-config="true" signature="createNode()[pri:0, instance:com.trello.TrelloScripts.TC6_UpdateCard@1a87b51]" started-at="2021-10-31T16:02:45 IST" name="createNode" finished-at="2021-10-31T16:02:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNode -->
+        <test-method signature="updateCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC6_UpdateCard@1a87b51]" started-at="2021-10-31T16:02:45 IST" name="updateCard" description="Description: Script to Verify that whether user is able to update a card" data-provider="data1" finished-at="2021-10-31T16:02:46 IST" duration-ms="963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[update]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/1/cards/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Content-Type,Accept]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[updatecard]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[key,token]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[MQASList]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCard -->
+        <test-method is-config="true" signature="createBug(org.testng.ITestResult)[pri:0, instance:com.trello.TrelloScripts.TC6_UpdateCard@1a87b51]" started-at="2021-10-31T16:02:46 IST" name="createBug" finished-at="2021-10-31T16:02:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateCard status=SUCCESS method=TC6_UpdateCard.updateCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC6_UpdateCard@1a87b51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBug -->
+      </class> <!-- com.trello.TrelloScripts.TC6_UpdateCard -->
+      <class name="com.trello.TrelloScripts.TC5_GetCard">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.trello.TrelloScripts.TC5_GetCard@3872bc37]" started-at="2021-10-31T16:02:44 IST" name="setExtentReport" finished-at="2021-10-31T16:02:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method is-config="true" signature="createNode()[pri:0, instance:com.trello.TrelloScripts.TC5_GetCard@3872bc37]" started-at="2021-10-31T16:02:44 IST" name="createNode" finished-at="2021-10-31T16:02:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNode -->
+        <test-method signature="getCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC5_GetCard@3872bc37]" started-at="2021-10-31T16:02:44 IST" name="getCard" description="Description: Verify that whether user is able to get a card" data-provider="data1" finished-at="2021-10-31T16:02:45 IST" duration-ms="994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[get]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/1/cards/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Content-Type,Accept]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[getcard]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[key,token]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[TrelloAutomation]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCard -->
+        <test-method is-config="true" signature="createBug(org.testng.ITestResult)[pri:0, instance:com.trello.TrelloScripts.TC5_GetCard@3872bc37]" started-at="2021-10-31T16:02:45 IST" name="createBug" finished-at="2021-10-31T16:02:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getCard status=SUCCESS method=TC5_GetCard.getCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC5_GetCard@3872bc37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBug -->
+      </class> <!-- com.trello.TrelloScripts.TC5_GetCard -->
+      <class name="com.trello.TrelloScripts.TC8_DeleteCard">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.trello.TrelloScripts.TC8_DeleteCard@2a066689]" started-at="2021-10-31T16:02:47 IST" name="setExtentReport" finished-at="2021-10-31T16:02:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method is-config="true" signature="createNode()[pri:0, instance:com.trello.TrelloScripts.TC8_DeleteCard@2a066689]" started-at="2021-10-31T16:02:47 IST" name="createNode" finished-at="2021-10-31T16:02:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNode -->
+        <test-method signature="deleteCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC8_DeleteCard@2a066689]" started-at="2021-10-31T16:02:47 IST" name="deleteCard" description="Description: Script to Verify that whether user is able to delete a card" data-provider="data1" finished-at="2021-10-31T16:02:48 IST" duration-ms="958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[delete]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/1/cards/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Content-Type,Accept]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[deletecard]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[key,token]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCard -->
+        <test-method is-config="true" signature="createBug(org.testng.ITestResult)[pri:0, instance:com.trello.TrelloScripts.TC8_DeleteCard@2a066689]" started-at="2021-10-31T16:02:48 IST" name="createBug" finished-at="2021-10-31T16:02:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteCard status=SUCCESS method=TC8_DeleteCard.deleteCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC8_DeleteCard@2a066689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBug -->
+      </class> <!-- com.trello.TrelloScripts.TC8_DeleteCard -->
+      <class name="com.trello.TrelloScripts.TC7_MoveCard">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.trello.TrelloScripts.TC7_MoveCard@12968227]" started-at="2021-10-31T16:02:46 IST" name="setExtentReport" finished-at="2021-10-31T16:02:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method is-config="true" signature="createNode()[pri:0, instance:com.trello.TrelloScripts.TC7_MoveCard@12968227]" started-at="2021-10-31T16:02:47 IST" name="createNode" finished-at="2021-10-31T16:02:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNode -->
+        <test-method signature="createCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC7_MoveCard@12968227]" started-at="2021-10-31T16:02:47 IST" name="createCard" description="Description: Verify that whether user is able to create a list" data-provider="data1" finished-at="2021-10-31T16:02:47 IST" duration-ms="815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[create]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/1/lists/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Content-Type,Accept]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[moveCard]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[key,token]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCard -->
+        <test-method is-config="true" signature="createBug(org.testng.ITestResult)[pri:0, instance:com.trello.TrelloScripts.TC7_MoveCard@12968227]" started-at="2021-10-31T16:02:47 IST" name="createBug" finished-at="2021-10-31T16:02:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCard status=SUCCESS method=TC7_MoveCard.createCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.trello.TrelloScripts.TC7_MoveCard@12968227] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBug -->
+      </class> <!-- com.trello.TrelloScripts.TC7_MoveCard -->
+    </test> <!-- Trello -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
